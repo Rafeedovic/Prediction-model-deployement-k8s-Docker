@@ -1,5 +1,5 @@
 resource "google_container_cluster" "cluster" {
-  name     = "tvapy-cluster"
+  name     = var.cluster_name
   location = var.region
   deletion_protection = false
   initial_node_count = 2
