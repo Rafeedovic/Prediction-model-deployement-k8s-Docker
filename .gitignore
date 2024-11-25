@@ -1,3 +1,4 @@
 prd/Terraform/terraform.tfstate
 prd/Terraform/terraform.tfstate.backup
 prd/Terraform/.terraform.lock.hcl
+prd/Terraform/.terraform/*
