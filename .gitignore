@@ -1,5 +1,6 @@
-prd/Terraform/terraform.tfstate
-prd/Terraform/terraform.tfstate.backup
-prd/Terraform/terraform.tfstate.lock.info
-prd/Terraform/.terraform.lock.hcl
-prd/Terraform/.terraform/*
+Terraform/terraform.tfstate
+Terraform/terraform.tfstate.backup
+Terraform/terraform.tfstate.lock.info
+Terraform/.terraform.lock.hcl
+Terraform/.terraform/*
+prd/.env
