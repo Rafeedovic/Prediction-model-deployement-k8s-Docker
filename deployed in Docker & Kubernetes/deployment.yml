@@ -16,15 +16,10 @@ spec:
     spec:
       containers:
       - name: flask-app
-        image: gcr.io/${PROJECT_ID}/flask_app:latest 
+        image: gcr.io/tvapy-420317/flask_app:latest 
         ports:
         - containerPort: 5001
         env:
-        - name: PROJECT_ID
-          valueFrom:
-            secretKeyRef:
-              name: flask-secrets
-              key: PROJECT_ID
         - name: FLASK_ENV
           value: development
 ---
